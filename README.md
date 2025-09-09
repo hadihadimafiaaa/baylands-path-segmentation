@@ -2,6 +2,10 @@
 
 Trained a **U-Net (MobileNetV2 encoder, pretrained on ImageNet)** for multi-class segmentation. This project performs **semantic segmentation of drone camera frames** in the Baylands Gazebo world. The dataset was collected using **PX4-Autopilot x500_mono_cam_down camera**, published via **ROS 2 Humble** with **rosgzbridge**. Classes: background, path, road.
 
+The dataset used in this project was **annotated and downloaded from Roboflow** (Project ID: `baylands_path_segmentation-lknc3`). Using this dataset, the model was trained in **Google Colab** for segmentation tasks.  
+
+[![Download Dataset](https://app.roboflow.com/images/download-dataset-badge.svg)](https://universe.roboflow.com/drone-path-planning/baylands_path_segmentation-lknc3)
+
 This repository contains a **complete standalone Colab notebook** for multi-class image segmentation of drone images using a U-Net model with a MobileNetV2 encoder. It includes the dataset, training, validation, and visualization steps. The notebook is designed to work with Google Drive.
 
 ---
@@ -13,7 +17,7 @@ This repository contains a **complete standalone Colab notebook** for multi-clas
 drone\_segmentation/
 │
 ├─ drone\_segmentation.ipynb      # Complete Colab notebook
-├─ segmentation\_dataset/         # Dataset (train/valid/test folders)
+├─ segmentation\_dataset/         # Dataset (train/valid/test folders, downloaded from Roboflow)
 └─ README.md                     # This file
 
 ```
@@ -48,7 +52,8 @@ segmentation\_dataset/
   - `1` = Path
   - `2` = Road
 
-> **Note:** The dataset was annotated and downloaded from Roboflow (Project ID: `baylands_path_segmentation-lknc3`).
+> **Note:** The dataset was annotated and downloaded from Roboflow ([Project Link](https://universe.roboflow.com/drone-path-planning/baylands_path_segmentation-lknc3)). If the dataset is too large for GitHub, it can be hosted externally and downloaded in the notebook automatically.
+
 ---
 
 ## How to Run
@@ -119,3 +124,6 @@ BASE_DIR = "/content/drive/MyDrive/segmentation_dataset"
 ## License
 
 This project is open-source and free to use. Please cite if you use this work in research.
+
+Do you want me to do that next?
+```
