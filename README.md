@@ -87,6 +87,12 @@ BASE_DIR = "/content/drive/MyDrive/segmentation_dataset"
    * Model training
    * Validation
    * Visualization of predictions
+  
+---
+
+## Example Predictions
+
+![Segmentation Example](visualization_example.png)
 
 ---
 
