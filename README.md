@@ -48,6 +48,7 @@ segmentation\_dataset/
   - `1` = Path
   - `2` = Road
 
+> **Note:** The dataset was annotated and downloaded from Roboflow (Project ID: `baylands_path_segmentation-lknc3`).
 ---
 
 ## How to Run
