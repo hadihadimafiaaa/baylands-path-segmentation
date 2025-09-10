@@ -143,5 +143,3 @@ model.eval()
 ## License
 
 This project is open-source and free to use. Please cite if you use this work in research.
-``s repos stand out when browsing GitHub.
-```
