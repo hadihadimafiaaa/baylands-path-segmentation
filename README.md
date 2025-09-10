@@ -40,9 +40,9 @@ segmentation\_dataset/
 │  ├─ image1\_mask.png
 │  └─ ...
 ├─ test/
-├─ image1.jpg
-├─ image1\_mask.png
-└─ ...
+│  ├─ image1.jpg
+│  ├─ image1\_mask.png
+│  └─ ...
 
 ````
 
@@ -87,16 +87,22 @@ BASE_DIR = "/content/drive/MyDrive/segmentation_dataset"
    * Model training
    * Validation
    * Visualization of predictions
-  
+
 ---
+
 ## Trained Model
-The trained U-Net model is available in this repository as `best_segmentation_model.pth` (~25.5 MB).  
+
+The trained U-Net model is available in this repository as `best_segmentation_model.pth` (\~25.5 MB).
 You can load it in PyTorch with:
+
 ```python
 import torch
 model.load_state_dict(torch.load("best_segmentation_model.pth"))
 model.eval()
+```
+
 ---
+
 ## Example Predictions
 
 ![Segmentation Example](visualization_example.png)
@@ -137,3 +143,5 @@ model.eval()
 ## License
 
 This project is open-source and free to use. Please cite if you use this work in research.
+``s repos stand out when browsing GitHub.
+```
