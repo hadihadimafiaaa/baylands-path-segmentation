@@ -89,7 +89,14 @@ BASE_DIR = "/content/drive/MyDrive/segmentation_dataset"
    * Visualization of predictions
   
 ---
-
+## Trained Model
+The trained U-Net model is available in this repository as `best_segmentation_model.pth` (~25.5 MB).  
+You can load it in PyTorch with:
+```python
+import torch
+model.load_state_dict(torch.load("best_segmentation_model.pth"))
+model.eval()
+---
 ## Example Predictions
 
 ![Segmentation Example](visualization_example.png)
